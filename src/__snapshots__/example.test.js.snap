@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Functions to make getStyleSheetForConcept should generate a readable stylesheet, based on all prop variations 1`] = `
+".base-button {
+    display:inline-flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    border-left-width:0;
+    border-top-width:0;
+    border-right-width:0;
+    border-bottom-width:0;
+    border-left-style:none;
+    border-top-style:none;
+    border-right-style:none;
+    border-bottom-style:none;
+    outline:none;
+    box-shadow:none;
+    text-decoration:none;
+    -webkit-appearance:none;
+    transition-property:background;
+    transition-duration:200ms;
+    transition-timing-function:cubic-bezier(0, 0, 1, 1);
+    cursor:pointer;
+    :disabled {
+        cursor:not-allowed;
+        background-color:#F6F6F6;
+        color:#AFAFAF;
+    }
+    margin-left:0;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:0;
+    font-family:system-ui, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    font-weight:500;
+    line-height:20px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    padding-top:14px;
+    padding-bottom:14px;
+    padding-left:16px;
+    padding-right:16px;
+    color:#FFFFFF;
+    background-color:#000000;
+    :hover {
+        background-color:#333333;
+    }
+    :active {
+        background-color:#545454;
+    }
+}
+
+.base-button.is-selected {
+    background-color:#000000;
+    :hover {
+        background-color:#333333;
+    }
+    :active {
+        background-color:#545454;
+    }
+}
+
+.base-button.secondary {
+    color:#FFFFFF;
+    background-color:#000000;
+    :hover {
+        background-color:#333333;
+    }
+    :active {
+        background-color:#545454;
+    }
+}
+
+.base-button.secondary.is-selected {
+    color:#000000;
+    background-color:#EEEEEE;
+    :hover {
+        background-color:#E2E2E2;
+    }
+    :active {
+        background-color:#CBCBCB;
+    }
+}
+
+.base-button.tertiary {
+    color:#FFFFFF;
+    background-color:#000000;
+    :hover {
+        background-color:#333333;
+    }
+    :active {
+        background-color:#545454;
+    }
+}
+
+.base-button.tertiary.is-selected {
+    background-color:transparent;
+    :hover {
+        background-color:#F6F6F6;
+    }
+    :active {
+        background-color:#EEEEEE;
+    }
+}
+
+.base-button.minimal {
+    color:#FFFFFF;
+    background-color:#000000;
+    :hover {
+        background-color:#333333;
+    }
+    :active {
+        background-color:#545454;
+    }
+}
+
+.base-button.minimal.is-selected {
+    background-color:transparent;
+    :hover {
+        background-color:#F6F6F6;
+    }
+    :active {
+        background-color:#EEEEEE;
+    }
+}"
+`;
+
+exports[`style-helpers getCSSFromComponent should return valid css given a component and props 1`] = `
+"display:inline-flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+border-left-width:0;
+border-top-width:0;
+border-right-width:0;
+border-bottom-width:0;
+border-left-style:none;
+border-top-style:none;
+border-right-style:none;
+border-bottom-style:none;
+outline:none;
+box-shadow:none;
+text-decoration:none;
+-webkit-appearance:none;
+transition-property:background;
+transition-duration:200ms;
+transition-timing-function:cubic-bezier(0, 0, 1, 1);
+cursor:pointer;
+:disabled {
+    cursor:not-allowed;
+    background-color:#F6F6F6;
+    color:#AFAFAF;
+}
+margin-left:0;
+margin-top:0;
+margin-right:0;
+margin-bottom:0;
+font-family:system-ui, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif;
+font-size:16px;
+font-weight:500;
+line-height:20px;
+border-top-right-radius:0px;
+border-bottom-right-radius:0px;
+border-top-left-radius:0px;
+border-bottom-left-radius:0px;
+padding-top:14px;
+padding-bottom:14px;
+padding-left:16px;
+padding-right:16px;
+color:#FFFFFF;
+background-color:#000000;
+:hover {
+    background-color:#333333;
+}
+:active {
+    background-color:#545454;
+}"
+`;
+
+exports[`style-helpers getCssFromStyles should return a valid css style string for the provided styles 1`] = `
+"display:inline-flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+border-left-width:0;
+border-top-width:0;
+border-right-width:0;
+border-bottom-width:0;
+border-left-style:none;
+border-top-style:none;
+border-right-style:none;
+border-bottom-style:none;
+outline:none;
+box-shadow:none;
+text-decoration:none;
+-webkit-appearance:none;
+transition-property:background;
+transition-duration:200ms;
+transition-timing-function:cubic-bezier(0, 0, 1, 1);
+cursor:pointer;
+:disabled {
+    cursor:not-allowed;
+    background-color:#F6F6F6;
+    color:#AFAFAF;
+}
+margin-left:0;
+margin-top:0;
+margin-right:0;
+margin-bottom:0;
+font-family:system-ui, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif;
+font-size:16px;
+font-weight:500;
+line-height:20px;
+border-top-right-radius:0px;
+border-bottom-right-radius:0px;
+border-top-left-radius:0px;
+border-bottom-left-radius:0px;
+padding-top:14px;
+padding-bottom:14px;
+padding-left:16px;
+padding-right:16px;
+color:#FFFFFF;
+background-color:#000000;
+:hover {
+    background-color:#333333;
+}
+:active {
+    background-color:#545454;
+}"
+`;
+
+exports[`style-helpers getStylesFromComponent should return a style object given a component and props 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "#545454",
+  },
+  ":disabled": Object {
+    "backgroundColor": "#F6F6F6",
+    "color": "#AFAFAF",
+    "cursor": "not-allowed",
+  },
+  ":hover": Object {
+    "backgroundColor": "#333333",
+  },
+  "WebkitAppearance": "none",
+  "alignItems": "center",
+  "backgroundColor": "#000000",
+  "borderBottomLeftRadius": "0px",
+  "borderBottomRightRadius": "0px",
+  "borderBottomStyle": "none",
+  "borderBottomWidth": 0,
+  "borderLeftStyle": "none",
+  "borderLeftWidth": 0,
+  "borderRightStyle": "none",
+  "borderRightWidth": 0,
+  "borderTopLeftRadius": "0px",
+  "borderTopRightRadius": "0px",
+  "borderTopStyle": "none",
+  "borderTopWidth": 0,
+  "boxShadow": "none",
+  "color": "#FFFFFF",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "flexDirection": "row",
+  "fontFamily": "system-ui, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+  "fontSize": "16px",
+  "fontWeight": 500,
+  "justifyContent": "center",
+  "lineHeight": "20px",
+  "marginBottom": 0,
+  "marginLeft": 0,
+  "marginRight": 0,
+  "marginTop": 0,
+  "outline": "none",
+  "paddingBottom": "14px",
+  "paddingLeft": "16px",
+  "paddingRight": "16px",
+  "paddingTop": "14px",
+  "textDecoration": "none",
+  "transitionDuration": "200ms",
+  "transitionProperty": "background",
+  "transitionTimingFunction": "cubic-bezier(0, 0, 1, 1)",
+}
+`;
